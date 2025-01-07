@@ -1,0 +1,22 @@
+{
+    "name": "ramiroestrella/slack-message-blocks",
+    "description": "Slack Message Blocks is a PHP package designed to simplify the process of creating and sending rich, interactive messages to Slack. This package provides a fluent interface for building various Slack message elements, including buttons, select menus, date pickers, and more.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SlackMessage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ramiro Estrella",
+            "email": "ramiro.estrellac@gmail.com"
+        }
+    ],
+    "minimum-stability": "RC",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}
